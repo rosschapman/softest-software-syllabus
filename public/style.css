@@ -5,7 +5,9 @@
 body {
   background-color: white;
   color: black;
-  font-family: Verdana;
+  font-family: -apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
+  font-weight: 300;
+  padding: 2em;
 }
 
 dt {
@@ -20,8 +22,8 @@ dd {
 }
 
 img {
-        max-width: 100%;
-        height: auto;
+        width: 100%;
+        object-fit: cover;
       }
 
 
@@ -32,6 +34,7 @@ table {
   padding: 0;
   width: 100%;
   table-layout: fixed;
+  font-size: 14px;
 }
 
 table caption {
@@ -48,7 +51,7 @@ table tr {
 table th,
 table td {
   padding: .625em;
-  text-align: center;
+  text-align: left;
 }
 
 table th {
@@ -65,7 +68,7 @@ table th {
   table caption {
     font-size: 1.3em;
   }
-  
+
   table thead {
     border: none;
     clip: rect(0 0 0 0);
@@ -76,20 +79,20 @@ table th {
     position: absolute;
     width: 1px;
   }
-  
+
   table tr {
     border-bottom: 3px solid #ddd;
     display: block;
     margin-bottom: .625em;
   }
-  
+
   table td {
     border-bottom: 1px solid #ddd;
     display: block;
     font-size: .8em;
     text-align: right;
   }
-  
+
   table td::before {
     /*
     * aria-label has no advantage, it won't be read inside a table
@@ -100,7 +103,7 @@ table th {
     font-weight: bold;
     text-transform: uppercase;
   }
-  
+
   table td:last-child {
     border-bottom: 0;
   }
