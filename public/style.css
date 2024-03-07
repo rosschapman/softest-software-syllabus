@@ -8,17 +8,7 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
   font-weight: 300;
   padding: 2em;
-}
-
-dt {
-    font-weight: bold;
-    text-decoration: underline;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-dd {
-    margin: 0;
-    padding: 0 0 0.5em 0;
+  font-size: .8em;
 }
 
 img {
@@ -33,8 +23,7 @@ table {
   margin: 0;
   padding: 0;
   width: 100%;
-  table-layout: fixed;
-  font-size: 14px;
+  table-layout: auto;
 }
 
 table caption {
@@ -50,7 +39,7 @@ table tr {
 
 table th,
 table td {
-  padding: .625em;
+  padding: .2em;
   text-align: left;
 }
 
